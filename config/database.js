@@ -5,6 +5,6 @@
  */
 
 module.exports = {
-    database: 'mongodb://27017/nodeauth',
+    database: 'mongodb://localhost:27017/nodeauth',
     secret: 'letitrip'
 }
