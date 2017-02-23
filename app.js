@@ -39,6 +39,11 @@ app.use(express.static(path.join(__dirname, 'public')));
 // Body parser Middleware
 app.use(bodyParser.json());
 
+// Add passport middlewear
+app.use(passport.initialize());
+app.use(passport.session());
+require('./config/passport')(passport);
+
 // Handle request to users/*
 app.use('/users', users);
 
