@@ -8,4 +8,4 @@ Testing what happens to changes in the main branch
 
 Lets do one more quick test, directly from vs code
 
-This is a new featured added to test.
+This is a new feature added to test, from New features Branch.
